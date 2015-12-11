@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Module 5 Demonstration</title>
+    <link rel="stylesheet" type="text/css" href="styles/demo5style.css" />
+    <script src="js/Module5.js"></script>
+</head>
+    
+<body>
+
+<!--    <select id="optionsections" autofocus=true onchange="ShowSection">
+
+        <option selected="selected" value="4">Select a Section </option>
+
+        <option value="1" onclick="ShowSection">Get Orders</option>
+
+        <option value="2" onclick="ShowSection">Get Customer History</option>
+
+        <option value="3" onclick="ShowSection">Get All Customers</option>
+
+    </select>-->
+
+
+
+
+    <h1>Module 5 Demonstration</h1>
+
+    <!--<section id="getorders" hidden=true>-->
+
+    <section id="getorders">
+
+    <hr>
+
+    <label>Please enter a Customer ID: </label>
+
+    <input type="text" id="custid">
+
+    <br>
+
+    <button onclick="GetOrders()" id="orders">Get Customer Orders</button>
+
+    <br>
+
+    <!--<label id="orderdisplay">Display orders here</label>-->
+
+    <br>
+
+
+
+    <table>
+
+        <tr>
+
+            <td><label id="orderdisplay">Display orders here</label></td>
+
+        </tr>
+
+    </table>
+
+    </section>
+
+
+<section id="gethistory">
+
+    <!--<section id="gethistory" hidden=true>-->
+
+    <hr>
+
+    <br>
+
+    <label>Please enter a Customer ID: </label>
+
+    <input type="text" id="custid1">
+
+    <br>
+
+    <button onclick="GetOrderHistory()" id="history">Get Customer
+Order History</button>
+
+    <br>
+
+    <br>
+
+    <table>
+
+        <tr>
+
+            <td><label id="orderhistory">Display History</label></td>
+
+        </tr>
+
+    </table>
+
+</section>
+
+
+
+<!--<section id="allcustomers" hidden=true>-->
+
+<section id="allcustomers">
+
+    <hr>
+
+    <br>
+
+    <button onclick="GetCustomers()" id="getcustomers">Get All
+Customers</button>
+
+    <br>
+
+    <br>
+
+    <table>
+
+        <tr>
+
+            <td><label id="customers">Display All Customers</label></td>
+
+        </tr>
+
+    </table>
+
+</section>
+
+
+</body>
+
+</html>
